@@ -25,10 +25,10 @@ which model, which metric - is explained and justified in the notebook.
 
 | Stage | Status | Description |
 |---|---|---|
-| EDA — Univariate Analysis | ✅ Complete | Target, numeric, and categorical distributions |
-| EDA — Bivariate Analysis | 🔄 In progress | Survival rate by Sex, Pclass, Age group |
-| Missing Value Treatment | ⏳ Pending | Age, Cabin, Embarked imputation strategy |
-| Feature Engineering | ⏳ Pending | Title extraction, family size, deck, fare log |
+| EDA — Univariate Analysis | ✅ Complete | Target, numeric, and categorical distributions | 
+| EDA — Bivariate Analysis | ✅ Complete | Survival rate by Sex, Pclass, Age group |
+| Missing Value Treatment | ✅ Complete | Age, Cabin, Embarked imputation strategy |
+| Feature Engineering | 🔄 In progress | Title extraction, family size, deck, fare log |
 | Preprocessing | ⏳ Pending | Encoding, scaling, train/test split |
 | Modelling | ⏳ Pending | Logistic Regression, Random Forest, XGBoost |
 | Hyperparameter Tuning | ⏳ Pending | RandomizedSearchCV |
