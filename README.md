@@ -25,14 +25,14 @@ which model, which metric - is explained and justified in the notebook.
 
 | Stage | Status | Description |
 |---|---|---|
-| EDA — Univariate Analysis | ✅ Complete | Target, numeric, and categorical distributions | 
-| EDA — Bivariate Analysis | ✅ Complete | Survival rate by Sex, Pclass, Age group |
+| EDA - Univariate Analysis | ✅ Complete | Target, numeric, and categorical distributions | 
+| EDA - Bivariate Analysis | ✅ Complete | Survival rate by Sex, Pclass, Age group |
 | Missing Value Treatment | ✅ Complete | Age, Cabin, Embarked imputation strategy |
-| Feature Engineering | 🔄 In progress | Title extraction, family size, deck, fare log |
-| Preprocessing | ⏳ Pending | Encoding, scaling, train/test split |
+| Feature Engineering | ✅ Complete | Title extraction, family size, deck, fare log |
+| Preprocessing | 🔄 In progress | Encoding, scaling, train/test split |
 | Modelling | ⏳ Pending | Logistic Regression, Random Forest, XGBoost |
 | Hyperparameter Tuning | ⏳ Pending | RandomizedSearchCV |
-| Explainability | ⏳ Pending | SHAP values — why did the model predict this? |
+| Explainability | ⏳ Pending | SHAP values - why did the model predict this? |
 | Final Write-up | ⏳ Pending | Conclusions and key learnings |
 
 ---
@@ -52,7 +52,7 @@ more than which algorithm is chosen.
 
 **Explainability is not optional.**
 A model nobody can explain is a model nobody will trust or deploy. SHAP
-values will be used to answer the question a stakeholder always asks —
+values will be used to answer the question a stakeholder always asks -
 *"why did the model make this prediction?"*
 
 ---
@@ -67,7 +67,7 @@ values will be used to answer the question a stakeholder always asks —
 
 ## Key findings so far
 
-- **Survival rate:** 38.4% survived, 61.6% did not — moderate class imbalance
+- **Survival rate:** 38.4% survived, 61.6% did not - moderate class imbalance
 - **Missing values:** Age (19.9%), Cabin (77.1%), Embarked (0.2%)
 - **Fare:** Heavily right-skewed - log transformation likely needed
 - **Age:** Roughly normal distribution - median imputation as baseline
@@ -89,7 +89,7 @@ decision or pipeline stage. The commit history is intentional and readable.
 
 ## Author
 
-**Manoj Prakash** — Data Scientist & AI/ML Engineer
+**Manoj Prakash** - Data Scientist & AI/ML Engineer
 M.Sc. Data Science @ Universität Trier · ex-Oracle Cerner · ex-Huawei
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/manoj-p-a95b7b1a2)
