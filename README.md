@@ -29,8 +29,8 @@ which model, which metric - is explained and justified in the notebook.
 | EDA - Bivariate Analysis | ✅ Complete | Survival rate by Sex, Pclass, Age group |
 | Missing Value Treatment | ✅ Complete | Age, Cabin, Embarked imputation strategy |
 | Feature Engineering | ✅ Complete | Title extraction, family size, deck, fare log |
-| Preprocessing | 🔄 In progress | Encoding, scaling, train/test split |
-| Modelling | ⏳ Pending | Logistic Regression, Random Forest, XGBoost |
+| Preprocessing | ✅ Complete | Encoding, scaling, train/test split |
+| Modelling | 🔄 In progress | Logistic Regression, Random Forest, XGBoost |
 | Hyperparameter Tuning | ⏳ Pending | RandomizedSearchCV |
 | Explainability | ⏳ Pending | SHAP values - why did the model predict this? |
 | Final Write-up | ⏳ Pending | Conclusions and key learnings |
