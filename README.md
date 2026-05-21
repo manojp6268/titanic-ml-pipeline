@@ -62,6 +62,8 @@ values will be used to answer the question a stakeholder always asks -
 | Notebook | Description |
 |---|---|
 | `titanic_eda.ipynb` | Exploratory Data Analysis - univariate analysis complete |
+| `titanic_fe.ipynb` | Feature Engineering - Scaling - Modelling |
+
 
 ---
 
