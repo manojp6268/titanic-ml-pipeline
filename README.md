@@ -31,9 +31,9 @@ which model, which metric - is explained and justified in the notebook.
 | Feature Engineering | ✅ Complete | Title extraction, family size, deck, fare log |
 | Preprocessing | ✅ Complete | Encoding, scaling, train/test split |
 | Modelling | ✅ Complete | Logistic Regression, Random Forest, XGBoost, SVM |
-| Hyperparameter Tuning | 🔄 In progress | RandomizedSearchCV |
-| Explainability | ⏳ Pending | SHAP values - why did the model predict this? |
-| Final Write-up | ⏳ Pending | Conclusions and key learnings |
+| Hyperparameter Tuning | ✅ Complete | RandomizedSearchCV |
+| Explainability | ✅ Complete | SHAP values - why did the model predict this? |
+| Final Write-up | 🔄 In progress | Conclusions and key learnings |
 
 ---
 
@@ -63,7 +63,7 @@ values will be used to answer the question a stakeholder always asks -
 |---|---|
 | `titanic_eda.ipynb` | Exploratory Data Analysis - univariate analysis complete |
 | `titanic_fe.ipynb` | Feature Engineering - Scaling - Modelling |
-
+| `titanic_code.ipynb` | Hyperparameter tuning - SHAP - .pickle file |
 
 ---
 
