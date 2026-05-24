@@ -33,7 +33,7 @@ which model, which metric - is explained and justified in the notebook.
 | Modelling | ✅ Complete | Logistic Regression, Random Forest, XGBoost, SVM |
 | Hyperparameter Tuning | ✅ Complete | RandomizedSearchCV |
 | Explainability | ✅ Complete | SHAP values - why did the model predict this? |
-| Final Write-up | 🔄 In progress | Conclusions and key learnings |
+| Final Write-up | ✅ Complete | Conclusions and key learnings |
 
 ---
 
